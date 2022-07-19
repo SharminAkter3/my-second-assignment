@@ -1,3 +1,132 @@
 body {
-    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* -----header section styles------ */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-section {
+    width: 80%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    border-radius: 20px;
+}
+
+.header-text {
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.header-text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 50%;
+    height: 100vh;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+/* -----button styles----- */
+.set-button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(208, 71, 71);
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 12px 25px;
+}
+
+.fa-angle-right {
+    color: white;
+}
+
+.first-card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first,
+.second,
+.third {
+    color: gray;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 15px 10px;
+    margin: 10px 20px;
+
+}
+
+.third {
+    color: white;
+    background-color: red;
+}
+
+.second-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.card img {
+    width: 300px;
+}
+
+.live-info p,
+h3 {
+    padding: 10px;
+    opacity: .8;
+}
+
+.live-info h3 {
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.live-info p {
+    font-size: 20px;
+}
+
+.live-details {
+    color: gray;
+    display: flex;
 }
