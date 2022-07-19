@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
@@ -129,4 +130,35 @@ h3 {
 .live-details {
     color: gray;
     display: flex;
+}
+
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 350px;
+    color: white;
+
+}
+
+.footer-header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+footer hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.5;
+}
+
+.footer-link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 50px;
 }
