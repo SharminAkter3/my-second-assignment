@@ -70,6 +70,7 @@ body {
     margin-left: 15px;
 }
 
+/* ---------main section styles ---------*/
 main {
     width: 100%;
 }
@@ -80,6 +81,7 @@ main {
 
 }
 
+/* ---------Cards styles ---------*/
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,15 +167,14 @@ h3 {
     color: gray;
     margin-left: 10px;
     margin-right: 20px;
-    /* display: flex;
-    justify-content: space-around; */
 }
 
-/*-- special button style-- */
+/*------- special button style-------- */
 .special-button {
     display: none;
 }
 
+/*----------Footer styles---------- */
 footer {
     background-color: #161616;
     width: 100%;
@@ -224,7 +225,7 @@ footer hr {
 }
 
 
-/*---- second website style ---*/
+/*---------- second website style -----------*/
 
 .match-section {
     display: grid;
@@ -426,10 +427,6 @@ footer hr {
 ---------------------- */
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-
-    /* .container {
-        width: 100%;
-    } */
 
     .header-section {
         width: 80%;
