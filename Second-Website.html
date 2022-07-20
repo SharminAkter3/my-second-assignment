@@ -13,98 +13,6 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/c48ba3e95b.js" crossorigin="anonymous"></script>
 
-    <style>
-        .match-section {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .match-container {
-            width: 250px;
-            height: 200px;
-            border: 1px solid rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .match {
-            display: flex;
-        }
-
-        .match img {
-            margin-left: 10px;
-            margin-top: 30px;
-            width: 90px;
-        }
-
-        #center {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            font-weight: bold;
-            padding: 10px;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .match-details h3 {
-            line-height: 0px;
-            margin-bottom: 10px;
-        }
-
-        #first-link a {
-            background-color: red;
-            color: white;
-
-        }
-
-        .added-card {
-            width: 30%;
-            height: 250px;
-            margin-left: 109px;
-            margin-right: 10px;
-            background-color: black;
-            border-radius: 7px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        .added-card a {
-            text-decoration: none;
-        }
-
-        .added-link {
-            color: gray;
-            background-color: white;
-            border-radius: 7px;
-            font-size: 18px;
-            padding: 8px;
-            margin: 10px 15px;
-
-        }
-
-        .added-first-link {
-            color: gray;
-            background-color: red;
-            border-radius: 7px;
-            font-size: 18px;
-            padding: 8px;
-            margin: 10px 15px;
-
-        }
-
-        #second-link a {
-            background-color: white;
-        }
-
-
-
-        #text-setting {
-            text-align: center;
-        }
-    </style>
     <title>First Website</title>
 </head>
 
@@ -137,7 +45,7 @@
     <main>
         <section class="second-section">
 
-            <div class="added-card">
+            <div id="added-card">
 
                 <div class="added-first-link" id="first-link"><a target="_blank" href="Second-Website.html">Upcoming
                         Match</a>
@@ -229,7 +137,7 @@
             </div>
 
         </section>
-        <div>
+        <div class="special-button">
             <button class="set-button" id="text-setting">View All</button>
         </div>
 

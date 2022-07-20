@@ -169,6 +169,10 @@ h3 {
     justify-content: space-around; */
 }
 
+/*-- special button style-- */
+.special-button {
+    display: none;
+}
 
 footer {
     background-color: #161616;
@@ -217,4 +221,215 @@ footer hr {
 
 .footer-link a {
     margin-left: 30px;
+}
+
+
+/*---- second website style ---*/
+
+.match-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match-container {
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.match {
+    display: flex;
+}
+
+.match img {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 90px;
+}
+
+#center {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.match-details h3 {
+    line-height: 0px;
+    margin-bottom: 10px;
+}
+
+#first-link a {
+    background-color: red;
+    color: white;
+
+}
+
+#added-card {
+    width: 30%;
+    height: 250px;
+    margin-left: 109px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#added-card a {
+    text-decoration: none;
+}
+
+.added-link {
+    color: gray;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 8px;
+    margin: 10px 15px;
+
+}
+
+.added-first-link {
+    color: gray;
+    background-color: red;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 8px;
+    margin: 10px 15px;
+
+}
+
+#second-link a {
+    background-color: white;
+}
+
+
+
+#text-setting {
+    text-align: center;
+}
+
+/*-------------------
+     Media Queries
+---------------------- */
+
+/*-------------------
+     Mobile Device
+---------------------- */
+
+@media only screen and (max-width: 688px) {
+    .header-section {
+        width: 100%;
+    }
+
+
+
+}
+
+
+/*-------------------
+     Tablet Device
+---------------------- */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* .container {
+        width: 100%;
+    } */
+
+    .header-section {
+        width: 80%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .first-card {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #added-card {
+        width: 35%;
+        background: none;
+        display: flex;
+        text-decoration: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first,
+    .second,
+    .third,
+    .added-first-link,
+    .added-link {
+        width: 800px;
+        height: 50px;
+        color: gray;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 7px;
+        border: 2px solid gray;
+        font-size: 25px;
+        text-align: center;
+        padding: 8px;
+        margin: 10px 15px;
+    }
+
+    .third,
+    #first-link {
+        color: white;
+        background-color: red;
+    }
+
+
+    .second-section {
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards,
+    .match-section {
+        width: 30%;
+        display: grid;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 0;
+    }
+
+    .special-button {
+        display: block;
+        margin-left: 40%;
+        padding: 0 30px;
+    }
+
+    .footer-header {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .footer-text,
+    .footer-link {
+        margin: 10px 40px;
+        text-align: center;
+    }
+
 }
