@@ -325,12 +325,98 @@ footer hr {
      Mobile Device
 ---------------------- */
 
-@media only screen and (max-width: 688px) {
-    .header-section {
-        width: 100%;
+@media only screen and (max-width: 576px) {
+    .container {
+        margin-top: 30px;
+        height: 30%;
     }
 
+    .header-section {
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
 
+
+    }
+
+    .header-text,
+    .header-image {
+        width: 100%;
+        height: 20%;
+        font-size: 20px;
+        margin: 5px 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .second-section {
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .first-card,
+    #added-card {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first,
+    .second,
+    .third,
+    .added-first-link,
+    .added-link {
+        width: 250px;
+        height: 30px;
+        color: gray;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 7px;
+        border: 2px solid gray;
+        font-size: 25px;
+        text-align: center;
+        padding: 6px;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .third,
+    .added-first-link {
+        color: white;
+        background-color: red;
+    }
+
+    .cards,
+    .match-section {
+        width: 30%;
+        display: grid;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 0;
+    }
+
+    .footer-header {
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        background-color: #161616;
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
