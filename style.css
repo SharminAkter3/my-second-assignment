@@ -44,7 +44,15 @@ body {
     height: 100vh;
     margin-top: 30px;
     margin-bottom: 0;
-    padding: 0 10px;
+
+}
+
+.container img {
+    width: 70%;
+    height: 75vh;
+    margin: 9px;
+    padding: 0, 18px;
+
 }
 
 /* -----button styles----- */
@@ -159,7 +167,7 @@ h3 {
 footer {
     background-color: #161616;
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin-top: 40px;
     color: white;
 
@@ -177,16 +185,30 @@ footer hr {
     opacity: 0.5;
 }
 
-.footer-link {
+.link-setting {
+    margin: 0;
+}
+
+.footer-text {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 
 }
 
-.footer-link a {
+.footer-text a {
     text-decoration: none;
     color: #ffff;
     margin-right: 50px;
 
+}
+
+.footer-link {
+    color: tomato;
+    font-size: 50px;
+
+}
+
+.footer-link a {
+    margin-left: 30px;
 }
